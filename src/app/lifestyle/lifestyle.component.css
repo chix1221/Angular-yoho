@@ -1,0 +1,263 @@
+.yoho-header.boys .nav-wrapper {
+  background-color: #3a3a3a;
+}
+.yoho-header .nav-wrapper {
+  height: 40px;
+  width: 100%;
+  position: relative;
+}
+.center-content {
+  width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.yoho-header .nav-wrapper .sub-nav-list.cure {
+  display: block;
+}
+.yoho-header .nav-wrapper .sub-nav-list li {
+  line-height: 40px;
+  padding-right: 46px;
+  box-sizing: border-box;
+  margin-right: 36px;
+  display: inline-block;
+}
+.yoho-header .nav-wrapper .sub-nav-list a {
+  color: #fff;
+  font-size: 14px;
+  line-height: 14px;
+  display: inline-block;
+  position: relative;
+}
+
+.yoho-header .nav-wrapper .sub-nav-list li {
+  line-height: 40px;
+  padding-right: 46px;
+  box-sizing: border-box;
+  margin-right: 36px;
+  display: inline-block;
+}
+.home-page {
+  width: 1150px;
+  margin: 10px auto 0;
+}
+.home-page .slide-thumb-container {
+  height: 510px;
+}
+.home-page .slide-wrapper ul {
+  position: relative;
+  height: 100%;
+}
+.home-page .slide-wrapper li {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+.home-page .slide-wrapper li a {
+  display: block;
+  height: 100%;
+  width: 1150px;
+  margin: 0 auto;
+}
+.home-page .thumb-pagination {
+  width: 1148px;
+  margin: 6px auto 0;
+  padding-left: 2px;
+}
+.home-page .thumb-pagination li {
+  position: relative;
+  float: left;
+  margin-left: 4px;
+  width: 138px;
+  height: 54px;
+  margin-top: 450px;
+}
+.home-page .thumb-pagination li a {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background: #000;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+  opacity: .3;
+}
+.home-page .thumb-pagination li a:hover{
+  background: #fff;
+  opacity: 0.3;
+}
+.home-page .thumb-pagination li img {
+  width: 100%;
+  height: 100%;
+}
+.sub-nav-list a:hover{
+  text-decoration: underline;
+}
+.yoho-header .head-wrapper {
+  width: 100%;
+}
+.center-content {
+  width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.yoho-header .head-wrapper .main-nav-list {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 45px;
+  float: left;
+}
+ol, ul {
+  list-style: none;
+}
+.yoho-header .head-wrapper .main-nav-list .cure {
+  color: #fff;
+  background-color: #3a3a3a;
+}
+.yoho-header .head-wrapper .main-nav-list li {
+  float: left;
+  padding: 8px 22px 5px;
+  text-align: center;
+}
+.yoho-header .head-wrapper .main-nav-list .cure .name-cn>a, .yoho-header .head-wrapper .main-nav-list .cure .name-en>a {
+  color: #fff;
+}
+.yoho-header .head-wrapper .main-nav-list li .name-cn a {
+  font-size: 16px;
+}
+.yoho-header .head-wrapper .main-nav-list li a {
+  font-size: 12px;
+  line-height: 14px;
+}
+.yoho-header .head-wrapper .func-area {
+  float: right;
+  width: 378px;
+  padding-right: 18px;
+  margin-top: 40px;
+}
+.yoho-header .head-wrapper .search-suggest-history {
+  padding-top: 0;
+}
+.yoho-header .head-wrapper .search-suggest, .yoho-header .head-wrapper .search-suggest-history {
+  position: absolute;
+  width: 320px;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  margin-top: 27px;
+  padding-top: 20px;
+  background-color: #fff;
+  display: none;
+  z-index: 1000;
+}
+.yoho-header .head-wrapper .search-2016, .yoho-header .head-wrapper .search-2016 form {
+  width: 320px;
+  height: 28px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.yoho-header .head-wrapper .search-2016 form {
+  background-color: #3a3a3a;
+  border: 1px solid #3a3a3a;
+  overflow: hidden;
+}
+.yoho-header .head-wrapper .search-2016 input {
+  width: 240px;
+  height: 100%;
+  border: none;
+  background: #fff;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+.yoho-header .head-wrapper .search-2016 .search-btn {
+  /*background: url(img/layout/search.png?15f33df0c70) no-repeat 50%;*/
+  width: 78px;
+  height: 28px;
+  float: right;
+  border: none;
+  cursor: pointer;
+}
+.yoho-header .head-wrapper .search-hot {
+  width: 320px;
+  height: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: inline-block;
+  zoom: 1;
+}
+.yoho-header .head-wrapper .search-hot li {
+  float: left;
+}
+.yoho-header .head-wrapper .search-hot span {
+  display: inline-block;
+  font-size: 12px;
+  color: #b0b0b0;
+  margin-right: 18px;
+}
+.yoho-header .head-wrapper .go-cart {
+  width: 30px;
+  height: 30px;
+  float: right;
+  cursor: pointer;
+  position: relative;
+}
+.yoho-header .head-wrapper .main-nav-list li .name-en a{
+  color: #8e8e8e;
+}
+.yoho-header .head-wrapper .main-logo {
+  background: url('../../assets/img/logo-en.png') no-repeat 50%;
+  width: 182px;
+  height: 53px;
+  left: 43%;
+  margin-top: 22px;
+  position: absolute;
+  animation: logoflip 20s infinite;
+  -moz-animation: logoflip 20s infinite;
+  -webkit-animation: logoflip 20s infinite;
+  -o-animation: logoflip 20s infinite;
+}
+.main-nav-list li{
+  cursor: pointer;
+  outline: none;
+}
+.yoho-header.boys .nav-wrapper {
+  background-color: #3a3a3a;
+}
+.yoho-header .nav-wrapper {
+  height: 40px;
+  width: 100%;
+  position: relative;
+}
+.center-content {
+  width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.yoho-header .nav-wrapper .sub-nav-list.cure {
+  display: block;
+}
+.yoho-header .nav-wrapper .sub-nav-list li {
+  line-height: 40px;
+  padding-right: 46px;
+  box-sizing: border-box;
+  margin-right: 36px;
+  display: inline-block;
+}
+.yoho-header .nav-wrapper .sub-nav-list a {
+  color: #fff;
+  font-size: 14px;
+  line-height: 14px;
+  display: inline-block;
+  position: relative;
+}
+
+.yoho-header .nav-wrapper .sub-nav-list li {
+  line-height: 40px;
+  padding-right: 46px;
+  box-sizing: border-box;
+  margin-right: 36px;
+  display: inline-block;
+}
+
+

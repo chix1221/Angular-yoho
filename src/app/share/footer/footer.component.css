@@ -1,0 +1,147 @@
+.yoho-footer {
+  font-size: 12px;
+  color: #fff;
+}
+.yoho-footer a{
+  color:#fff;
+
+}
+
+.yoho-footer a:hover{
+  text-decoration: underline;
+}
+.yoho-footer .footerbottom {
+  width: 100%;
+  background: #000;
+}
+
+.yoho-footer .promise {
+  padding: 20px 0 10px;
+  background: #0e0e0e;
+  height: 64px;
+  margin-top: 34px;
+}
+
+.center-content {
+  width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.yoho-footer .promise .left {
+  margin-right: 60px;
+  line-height: 30px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.yoho-footer .subscribe {
+  border: 1px solid #262626;
+  width: 240px;
+}
+
+.yoho-footer .subscribe input {
+  width: 180px;
+  height: 32px;
+  padding: 0 10px;
+  line-height: 32px;
+  border: none;
+  margin: 0;
+  background: #262626;
+  color: #fff;
+}
+
+.yoho-footer .subscribe a {
+  display: block;
+  float: right;
+  margin-right: 20px;
+  font-size: 20px;
+  line-height: 28px;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  opacity: .5;
+  color: #fff;
+}
+
+.yoho-footer .footer-help {
+  background: #000;
+  font-size: 12px;
+  overflow: hidden;
+  color: #fff;
+}
+
+.yoho-footer .footer-help > div {
+  padding: 15px 0;
+  border-top: 1px solid #262626;
+}
+
+.yoho-footer .footer-help p a {
+  color: #666;
+}
+
+.yoho-footer .footer-help p {
+  line-height: 24px;
+}
+
+.yoho-footer * {
+  box-sizing: border-box;
+}
+
+.yoho-footer .footer-help ul {
+  width: 110%;
+}
+
+.yoho-footer .footer-help li {
+  width: 180px;
+}
+
+.yoho-footer .footer-help > div {
+  padding: 15px 0;
+  border-top: 1px solid #262626;
+}
+
+.yoho-footer .footer-link {
+  background: #000;
+  padding: 10px 0 40px;
+  font-size: 12px;
+  color: #fff;
+  line-height: 20px;
+}
+
+.yoho-footer .footer-link a, .yoho-footer .footer-link p {
+  color: #666;
+}
+
+.yoho-footer .footer-link .about-us {
+  line-height: 20px;
+  margin-left: 10px;
+}
+.quality_pic{
+  /*background-image: url("../../assets/images/quality.png");*/
+  background-size:100% 100%;
+}
+.pic_area{
+  display: inline-block;
+  width: 27px;
+  height: 30px;
+  float: left;
+}
+.yoho-footer .right-floating-layer {
+  position: fixed;
+  width: 60px;
+  left: 50%;
+  bottom: 20px;
+  margin-left: 595px;
+  z-index: 4;
+}
+.yoho-footer .layer-box {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 80px;
+  color: #fff;
+  background: #000;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  opacity: .5;
+  cursor: pointer;
+  margin-top: 20px;
+}

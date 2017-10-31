@@ -1,0 +1,32 @@
+
+<div class="login-page clearfix">
+  <div style="font-size: 12px;text-align: center;">
+    <div
+      style="display: inline-block;width: 990px; height: 25px; background-color: #f5f5f5; line-height: 25px; overflow: hidden; margin-top: 10px;">
+      <i class="iconfont" style="font-size: 12px;"></i>&nbsp;&nbsp;为保障账户安全与正常使用，依《网络安全法》相关要求，会员账号需绑定手机号。<span
+      style="color: red;">如您尚未绑定手机号，请尽快完成，</span>感谢您对Yoho!Buy有货的理解与支持！
+    </div>
+  </div>
+
+  <div class="center-content login-container">
+    <h2 class="title">会员登录</h2>
+    <input ChineseMobileValidator #userName="ngModel" [(ngModel)]="regModel.userName" name="userName" placeholder="邮箱/手机号码" required>
+    <div *ngIf="userName.invalid && (userName.dirty || userName.touched)" class="text-danger">
+      <div *ngIf="userName.errors.required" class="input-text"  >
+        邮箱/手机号码
+      </div>
+      <div *ngIf="userName.errors.minlength" class="input-text">
+        最小长度不能小于12个字符
+      </div>
+      <div *ngIf="userName.errors.maxLength" class="input-text">
+        最大长度不能大于32个字符
+      </div>
+    </div>
+    <input type='password' #password="ngModel" [(ngModel)]="regModel.password" name="password"  class="form-control"
+           placeholder="密码">
+    <div class="btn" (click)="CheckLogin()">登录</div>
+    <li class="other-opts"><span class="remember-me checked"><i class="iconfont"></i>记住登录状态</span>
+      <span class="right"><a class="forget-password" href="//www.yohobuy.com/passport/back/index">忘记密码?</a>|<a class="fast-reg" href="">快速注册</a></span>
+    </li>
+  </div>
+</div>

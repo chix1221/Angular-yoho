@@ -1,0 +1,48 @@
+.home-page {
+  width: 1150px;
+  margin: 10px auto 0;
+}
+.home-page .singlehot {
+  overflow: hidden;
+  margin-left: -8px;
+}
+.home-page .floor-header {
+  position: relative;
+  margin: 80px 0 40px;
+}
+.home-page .floor-header .floor-title {
+  margin: 0 auto;
+  width: 298px;
+  height: 31px;
+  line-height: 31px;
+  border: 1px solid #000;
+  font-size: 16px;
+  text-align: center;
+}
+.home-page .singlehot li {
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
+.home-page .singlehot li:hover{
+  background: #fff;
+  opacity: .8;
+}
+.g-list li {
+  float: left;
+}
+.home-page .singlehot li a {
+  width: 185px;
+  height: 248px;
+}
+.g-list li a {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+.g-list li a img, .g-mask {
+  width: 100%;
+  height: 100%;
+}
+.home-page .singlehot .impo1, .home-page .singlehot .impo9 {
+  width: 378px !important;
+}

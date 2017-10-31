@@ -1,0 +1,124 @@
+.home-page {
+  width: 1150px;
+  margin: 10px auto 0;
+}
+.home-page .tpl-recommend {
+  width: 100%;
+  position: relative;
+}
+.home-page .floor-header{
+  position: relative;
+  margin: 80px 0 40px;
+}
+.home-page .floor-header .floor-title {
+  margin: 0 auto;
+  width: 298px;
+  height: 31px;
+  line-height: 31px;
+  border: 1px solid #000;
+  font-size: 16px;
+  text-align: center;
+}
+.home-page .floor-header .header-navs {
+  position: absolute;
+  padding: 10px 0;
+  top: 0;
+  right: 0;
+  font-size: 14px;
+}
+.home-page .floor-header .header-navs li:first-child {
+  border-left: none;
+}
+.home-page .floor-header .header-navs li {
+  float: left;
+  padding: 1px 15px;
+  border-left: 1px solid #ccc;
+}
+.home-page .floor-header .header-navs li a {
+  color: #333;
+}
+.home-page .floor-header .header-navs li a:hover{
+  text-decoration: underline;
+}
+.home-page .tpl-recommend .tpl-body {
+  margin-bottom: 8px;
+}
+.home-page .tpl-recommend .tpl-nav {
+  width: 185px;
+}
+.home-page .tpl-recommend .tpl-nav {
+  float: left;
+  overflow: hidden;
+}
+.home-page .tpl-recommend .tpl-nav .tpl-keywords {
+  margin-bottom: 8px;
+}
+.home-page .tpl-recommend .tpl-nav .tpl-keywords a{
+  display: block;
+}
+.home-page .tpl-recommend .tpl-nav .keywords0,
+.home-page .tpl-recommend .tpl-nav .keywords1,
+.home-page .tpl-recommend .tpl-nav .keywords2 {
+  margin-bottom: 10px;
+  height: 76px;
+}
+.home-page .tpl-recommend .tpl-nav .tpl-category {
+  height: 228px;
+}
+.home-page .tpl-recommend .tpl-nav .tpl-category {
+  padding: 10px 0;
+  background-color: #f8f8f8;
+  overflow: hidden;
+}
+.home-page .tpl-recommend .tpl-nav .tpl-category a {
+  height: 38px;
+  line-height: 38px;
+  font-size: 14px;
+}
+.home-page .tpl-recommend .tpl-nav .tpl-category a {
+  float: left;
+  width: 50%;
+  text-align: center;
+  color: #000;
+  overflow: hidden;
+}
+.home-page .tpl-recommend .tpl-brands {
+  width: 378px;
+  height: 512px;
+}
+.home-page .tpl-recommend .tpl-brands {
+  float: left;
+  overflow: hidden;
+  margin-left: 8px;
+}
+.home-page .tpl-recommend a {
+  display: block;
+}
+.home-page .tpl-recommend a img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.home-page .tpl-recommend .tpl-types {
+  float: left;
+  overflow: hidden;
+  margin-top: -8px;
+  width: 579px;
+}
+.home-page .tpl-recommend .tpl-types li {
+  float: left;
+  margin-left: 8px;
+  margin-top: 8px;
+}
+.home-page .tpl-recommend .tpl-types li a {
+  width: 185px;
+  height: 248px;
+}
+.tpl-brands a:hover{
+  background: #ffffff;
+  opacity: .8;
+}
+.tpl-types a:hover{
+  background: #ffffff;
+  opacity: .8;
+}

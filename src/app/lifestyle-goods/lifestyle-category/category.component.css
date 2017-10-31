@@ -1,0 +1,64 @@
+.home-page {
+  width: 1150px;
+  margin: 10px auto 0;
+}
+.home-page .floor-header {
+  position: relative;
+  margin: 80px 0 40px;
+}
+.home-page .floor-header .floor-title {
+  margin: 0 auto;
+  width: 298px;
+  height: 31px;
+  line-height: 31px;
+  border: 1px solid #000;
+  font-size: 16px;
+  text-align: center;
+}
+.home-page .floor-header .header-navs {
+  position: absolute;
+  padding: 10px 0;
+  top: 0;
+  right: 0;
+  font-size: 14px;
+}
+.home-page .floor-header .header-navs li:first-child {
+  border-left: none;
+}
+.home-page .floor-header .header-navs li {
+  float: left;
+  padding: 1px 15px;
+  border-left: 1px solid #ccc;
+}
+.home-page .floor-header .header-navs li a {
+  color: #333;
+}
+.home-page .floor-header .header-navs li a:hover{
+  text-decoration: underline;
+}
+.home-page .categorys-list ul {
+  width: 1158px;
+}
+.home-page .categorys-list li.cate-item0 {
+  width: 185px;
+  height: 504px;
+}
+.home-page .categorys-list li img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.home-page .categorys-list li.cate-item1 {
+  width: 377px;
+  height: 504px;
+}
+.home-page .categorys-list li {
+  float: left;
+  margin: 0 8px 8px 0;
+  width: 185px;
+  height: 248px;
+}
+.home-page .categorys-list li:hover{
+  background: #ffffff;
+  opacity: .8;
+}

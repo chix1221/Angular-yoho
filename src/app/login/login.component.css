@@ -1,0 +1,83 @@
+.login-page .title {
+  /*float: left;*/
+  font-size: 20px;
+}
+
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.center-content {
+  width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+}
+
+.login-container {
+  border: 1px solid #ddd;
+  width: 480px;
+  height: 500px;
+  padding: 80px;
+  margin-top: 40px;
+
+}
+
+.login-container input {
+  width: 268px;
+  height: 43px;
+  border: 1px solid #dbdbdb;
+  color: #9a9a9a;
+  color: rgba(0, 0, 0, .5);
+  text-indent: 10px;
+  font-size: 16px;
+  line-height: 1.2;
+  line-height: 43px \9;
+  display: block;
+  margin: 0 auto;
+  /*float: left;*/
+  margin-top: 20px;
+
+}
+
+.login-container .btn {
+  display: block;
+  width: 268px;
+  height: 46px;
+  background-color: #ff1901;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 10px;
+  font-size: 20px;
+  line-height: 46px;
+  cursor: pointer;
+  margin: 0 auto;
+  margin-top: 30px;
+  clear: both;
+}
+.login-container .other-opts {
+  color: #b9b9b9;
+  font-size: 14px;
+  width: 268px;
+  padding:10px;
+  margin: 0 auto;
+}
+.login-page .remember-me {
+  cursor: pointer;
+  float: left;
+}
+.login-page .forget-password {
+  color: #b9b9b9;
+}
+.login-page .other-opts .fast-reg {
+  color: #ff1901;
+}
+.text-danger{
+  /*float: left;*/
+  margin: 0 auto;
+  margin-left: 25px;
+
+}

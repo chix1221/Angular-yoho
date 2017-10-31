@@ -1,0 +1,119 @@
+.home-page {
+  width: 1150px;
+  margin: 10px auto 0;
+}
+.home-page .floor-header {
+  position: relative;
+  margin: 80px 0 40px;
+}
+.home-page .floor-header .floor-title {
+  margin: 0 auto;
+  width: 298px;
+  height: 31px;
+  line-height: 31px;
+  border: 1px solid #000;
+  font-size: 16px;
+  text-align: center;
+}
+.home-page .floor-header .header-navs {
+  position: absolute;
+  padding: 10px 0;
+  top: 0;
+  right: 0;
+  font-size: 14px;
+}
+.home-page .floor-header .header-navs li:first-child {
+  border-left: none;
+}
+.home-page .floor-header .header-navs li {
+  float: left;
+  padding: 1px 15px;
+  border-left: 1px solid #ccc;
+}
+.home-page .floor-header .header-navs li:hover{
+  text-decoration: underline;
+}
+.home-page .goods-container {
+  margin-right: -10px;
+  width: inherit;
+  padding-top: 0;
+}
+.boys .goods-container .good-info, .lifestyle .goods-container .good-info {
+  width: 222px!important;
+  height: 408px!important;
+}
+.home-page .goods-container .good-info {
+  margin-bottom: 0;
+  width: 280px;
+  height: 485px;
+}
+.good-info .tag-container {
+  font-size: 12px;
+  height: 22px;
+  line-height: 22px;
+}
+.boys .goods-container .good-info .good-detail-img, .lifestyle .goods-container .good-info .good-detail-img {
+  height: 298px!important;
+  transition: all 0.6s;
+}
+
+.good-info .good-detail-img .good-thumb, .good-info .good-detail-img img.lazy {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.good-info .good-detail-img .good-thumb, .good-info .good-detail-img img.lazy {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.good-info.imgopacity .good-detail-img:hover{
+  transform: scale(1.05);
+}
+.good-info {
+  margin-bottom: 35px;
+  width: 222px;
+  margin-right: 10px;
+  float: left;
+}
+.home-page .goods-container .good-detail-text {
+  text-align: center;
+}
+.good-info .good-detail-text {
+  height: 80px;
+  color: #222;
+  font-size: 12px;
+  text-align: left;
+  overflow: hidden;
+}
+.good-info .good-detail-text>a {
+  margin-top: 16px;
+  line-height: 1.5;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.good-info .good-detail-text>.price {
+  margin-top: 5px;
+  line-height: 22px;
+}
+.home-page .commodity .loading {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  padding-top: 40px;
+}
+.home-page .commodity .loading a {
+  display: block;
+  height: 35px;
+  width: 120px;
+  margin: 0 auto 40px;
+  background-color: #000;
+  color: #fff;
+  font-size: 14px;
+  line-height: 35px;
+  text-align: center;
+}

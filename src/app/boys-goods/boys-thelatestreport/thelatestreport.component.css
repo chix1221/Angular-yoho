@@ -1,0 +1,43 @@
+.home-page {
+  width: 1150px;
+  margin: 10px auto 0;
+}
+.home-page .floor-header {
+  position: relative;
+  margin: 80px 0 40px;
+}
+.home-page .floor-header .floor-title {
+  margin: 0 auto;
+  width: 298px;
+  height: 31px;
+  line-height: 31px;
+  border: 1px solid #000;
+  font-size: 16px;
+  text-align: center;
+}
+.home-page .new-report .report-list {
+  float: left;
+  width: 868px;
+}
+.home-page .new-report .report-list li:first-child {
+  margin-right: 7px;
+  width: 282px;
+  height: 504px;
+}
+.home-page .new-report .report-list li {
+  float: left;
+  margin: 0 8px 8px 0;
+  width: 185px;
+  height: 248px;
+  overflow: hidden;
+}
+.home-page .new-report .report-list li:hover{
+  background: #ffffff;
+  opacity: .8;
+}
+.home-page .new-report .last-item {
+  float: left;
+  width: 282px;
+  height: 504px;
+  overflow: hidden;
+}

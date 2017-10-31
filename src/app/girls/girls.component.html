@@ -1,0 +1,208 @@
+
+<!-- 头部组件 -->
+<div class="yoho-header boys">
+  <div class="head-wrapper clearfix" >
+    <div class="center-content">
+      <div class="main-logo logo-cn"><a href="//www.yohobuy.com/" class="main-link"></a></div>
+      <ul class="main-nav-list">
+        <li class="boys cure"   style="background: #fff;" routerLink='/index' >
+          <h5 class="name-cn" style="color:#000">
+            <a style="color:#000">男生</a>
+          </h5>
+          <h5 class="name-en" >
+            <a style="color:#000">BOYS</a>
+          </h5>
+        </li>
+        <li class="girls" routerLink='/girls' style="background-color: #ff88ae"  [ngStyle]="{'background-color':localUrl}">
+          <h5 class="name-cn">
+            <a style="color:#fff">女生</a>
+          </h5>
+          <h5 class="name-en">
+            <a style="color:#fff">GIRLS</a>
+          </h5>
+        </li>
+        <li class="kids" routerLink='/kids'>
+          <h5 class="name-cn">
+            <a >潮童</a>
+          </h5>
+          <h5 class="name-en">
+            <a  >KIDS</a>
+          </h5>
+        </li>
+        <li class="lifestyle" routerLink='/lifestyle'>
+          <h5 class="name-cn">
+            <a >创意生活</a>
+          </h5>
+          <h5 class="name-en">
+            <a >LIFE STYLE</a>
+          </h5>
+        </li>
+      </ul>
+      <div class="func-area">
+        <ul class="search-suggest"></ul>
+        <ul class="search-suggest-history" style="display: none;"></ul>
+        <div class="search-2016">
+          <form action="//search.yohobuy.com" method="get" id="search-form" [ngStyle]="{'background-color':localUrl,'border-color':localUrl}">
+            <input type="hidden" id="defaultsearch" value="CHUMS 下单立享7折!">
+            <input class="search-key" type="text" name="query" id="query-key" autocomplete="off" x-webkit-speech="" lang="zh-CN" x-webkit-grammar="builtin:translate" value="" maxlength="30" style="color: rgb(153, 153, 153);">
+            <a class="search-btn" href="javascript:submitSearch();"></a>
+          </form>
+          <ul class="search-hot">
+            <li>
+              <a style="display: block;" href="//search.yohobuy.com?query=dickies" title="dickies" act="//search.yohobuy.com?query=dickies" target="_blank">
+                <span class="searchvalue">dickies</span>
+              </a>
+            </li>
+            <li>
+              <a style="display: block;" href="//search.yohobuy.com?query=stayreal" title="stayreal" act="//search.yohobuy.com?query=stayreal" target="_blank">
+                <span class="searchvalue">stayreal</span>
+              </a>
+            </li>
+            <li>
+              <a style="display: block;" href="//search.yohobuy.com?query=%E6%89%8B%E6%9C%BA%E5%A3%B3" title="手机壳" act="//search.yohobuy.com?query=%E6%89%8B%E6%9C%BA%E5%A3%B3" target="_blank">
+                <span class="searchvalue">手机壳</span>
+              </a>
+            </li>
+            <li>
+              <a style="display: block;" href="//search.yohobuy.com?query=%E5%B8%BD%E5%AD%90" title="帽子" act="//search.yohobuy.com?query=%E5%B8%BD%E5%AD%90" target="_blank">
+                <span class="searchvalue">帽子</span>
+              </a>
+            </li>
+            <li>
+              <a style="display: block;" href="//search.yohobuy.com?query=vans" title="vans" act="//search.yohobuy.com?query=vans" target="_blank">
+                <span class="searchvalue">vans</span>
+              </a>
+            </li>
+            <li>
+              <a style="display: block;" href="//search.yohobuy.com?query=%E4%BC%91%E9%97%B2%2F%E8%BF%90%E5%8A%A8%E9%9E%8B" title="休闲/运动鞋" act="//search.yohobuy.com?query=%E4%BC%91%E9%97%B2%2F%E8%BF%90%E5%8A%A8%E9%9E%8B" target="_blank">
+                <span class="searchvalue">休闲/运动鞋</span>
+              </a>
+            </li>
+            <li>
+              <a style="display: block;" href="//search.yohobuy.com?query=adidas%20Originals" title="adidas Originals" act="//search.yohobuy.com?query=adidas%20Originals" target="_blank">
+                <span class="searchvalue">adidas Originals</span>
+              </a>
+            </li>
+            <li>
+              <a style="display: block;" href="//search.yohobuy.com?query=BOY%20LONDON" title="BOY LONDON" act="//search.yohobuy.com?query=BOY%20LONDON" target="_blank">
+                <span class="searchvalue">BOY LONDON</span>
+              </a>
+            </li>
+            <li>
+              <a style="display: block;" href="//search.yohobuy.com?query=%E8%A1%AC%E8%A1%AB" title="衬衫" act="//search.yohobuy.com?query=%E8%A1%AC%E8%A1%AB" target="_blank">
+                <span class="searchvalue">衬衫</span>
+              </a>
+            </li>
+            <li>
+              <a style="display: block;" href="//search.yohobuy.com?query=stussy" title="stussy" act="//search.yohobuy.com?query=stussy" target="_blank">
+                <span class="searchvalue">stussy</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<!-- tab页和banner图各个组件是不一样的需要变化 -->
+<div class="yoho-header boys" >
+  <div class="nav-wrapper clearfix" [ngStyle]="{'background-color':localUrl}">
+    <div class="center-content" >
+      <ul class="sub-nav-list boys cure" >
+        <li>
+          <a href="//list.yohobuy.com/boys-new/">新品到着
+          </a>
+        </li>
+        <li>
+          <a href="//www.yohobuy.com/boys-brands/">品牌一览
+          </a>
+        </li>
+        <li class="">
+          <a href="">服饰
+          </a>
+        </li>
+        <li class="">
+          <a href="">鞋履
+          </a>
+        </li>
+        <li class="">
+          <a href="">包袋
+          </a>
+        </li>
+        <li class="">
+          <a href="">配饰 · 其他
+          </a>
+        </li>
+        <li>
+          <a href="//guang.yohobuy.com/boys/">逛
+          </a>
+        </li>
+        <li>
+          <a href="//www.yohobuy.com/product/boys-sale/">SALE
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="home-page yoho-page boys">
+  <div class="slide-container slide-thumb-container">
+    <div class="slide-wrapper">
+      <ul>
+        <li>
+          <a href="">
+            <img src="//img11.static.yhbimg.com/yhb-img01/2017/10/18/08/01afdf8c67b5c470be4766072790778eb8.jpg?imageView2/2/w/1150/h/450" alt="－YOHO!BUY有货">
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="thumb-pagination">
+      <ul class="clearfix">
+        <li style="background: #fff;opacity: .3;">
+          <a href="https://sale.yohobuy.com/?gender=1,3&amp;specialsale_id=1" target="_blank" title=""></a>
+          <img src="//img11.static.yhbimg.com/yhb-img01/2017/10/18/09/01cf6085adcd6d88c6507aaf1fc2183087.jpg?imageView2/2/w/138/h/54" alt="">
+        </li>
+        <li class="">
+          <a href="http://www.yohobuy.com/special/1419_新品品牌-男.html" target="_blank" title=""></a>
+          <img src="//img11.static.yhbimg.com/yhb-img01/2017/10/18/09/0186be6608ddd8f79a1b5fb3ab1c363c6b.jpg?imageView2/2/w/138/h/54" alt="">
+        </li>
+        <li class="">
+          <a href="https://list.yohobuy.com/?gender=1,3&amp;misort=11,12,13,16,21,26,27,28,44,45,46,49,50&amp;msort=1,3,6,7&amp;order=s_t_desc&amp;p_d=0.1,0.64" target="_blank" title=""></a>
+          <img src="//img10.static.yhbimg.com/yhb-img01/2017/10/18/09/01604e42f3acaa8343c85602abac867040.jpg?imageView2/2/w/138/h/54" alt="">
+        </li>
+        <li class="">
+          <a href="https://list.yohobuy.com/?category_id=213,211,1206,1214&amp;gender=1,3" target="_blank" title=""></a>
+          <img src="//img11.static.yhbimg.com/yhb-img01/2017/10/18/09/01347152ebaff16a892d29b404cd8bc350.jpg?imageView2/2/w/138/h/54" alt="">
+        </li>
+        <li class="">
+          <a href="http://sale.yohobuy.com/?specialsale_id=7&amp;gender=1,3" target="_blank" title=""></a>
+          <img src="//img11.static.yhbimg.com/yhb-img01/2017/10/18/09/015db76052534f5e9a623199202f0b772d.jpg?imageView2/2/w/138/h/54" alt="">
+        </li>
+        <li class="">
+          <a href="http://list.yohobuy.com/?msort=1&amp;gender=1,3&amp;misort=21&amp;order=s_t_desc" target="_blank" title=""></a>
+          <img src="//img11.static.yhbimg.com/yhb-img01/2017/10/18/09/0193b3daf445c296b8bfbcc43f0b4da908.jpg?imageView2/2/w/138/h/54" alt="">
+        </li>
+        <li class="">
+          <a href="http://list.yohobuy.com/?msort=1&amp;gender=1,3&amp;misort=16&amp;order=s_t_desc" target="_blank" title=""></a>
+          <img src="//img10.static.yhbimg.com/yhb-img01/2017/10/18/09/01b0806cb35d90782b3eb9c2426fef945e.jpg?imageView2/2/w/138/h/54" alt="">
+        </li>
+        <li class="">
+          <a href="http://www.yohobuy.com/special/1425_1013一周速报男.html" target="_blank" title=""></a>
+          <img src="//img11.static.yhbimg.com/yhb-img01/2017/10/12/15/01bb0483dc9cb79dc6e2c0f45804fdb5c4.jpg?imageView2/2/w/138/h/54" alt="">
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- girls商品组件 -->
+<app-trendfashion></app-trendfashion>
+<app-europeamerica></app-europeamerica>
+<app-newarrivald></app-newarrivald>
+
+
+<!-- girls商品组件 -->
+<app-trendfashion></app-trendfashion>
+<app-europeamerica></app-europeamerica>
+<app-newarrivald></app-newarrivald>
